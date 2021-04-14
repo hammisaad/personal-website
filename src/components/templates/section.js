@@ -13,6 +13,8 @@ const StyledSection = styled.section`
   height: auto;
   background: ${({ theme }) => theme.colors.background};
   margin-top: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
 `
 
 // Fixed width container for content stuff

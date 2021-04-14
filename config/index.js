@@ -1,11 +1,11 @@
 module.exports = {
   //-- SITE SETTINGS -----
   author: "@konstantinmuenster",
-  siteTitle: "Gatsby Starter Portfolio Minimal",
-  siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
+  siteTitle: "My Personal website",
+  siteShortTitle: "SAAD", // Used as logo text in header, footer, and splash screen
   siteDescription:
-    "A modern one-page portfolio with a clean yet expressive design.",
-  siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
+    "I created this website to showercase my work and share my ideas.",
+  siteUrl: "",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
   seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
@@ -14,19 +14,20 @@ module.exports = {
 
   // -- THEME SETTINGS -----
   colors: {
-    lightTheme: {
+    darkTheme: {
       primary: "#000000",
       secondary: "#FFF4D9",
       tertiary: "#F2F2F2",
       text: "#000000",
       subtext: "#555555",
-      background: "#FFFFFF",
+      background: "#F3F3F3",
       card: "#FFFFFF",
       scrollBar: "rgba(0, 0, 0, 0.5)",
       boxShadow: "rgba(0, 0, 0, 0.16)",
       boxShadowHover: "rgba(0, 0, 0, 0.32)",
+      lightBlue: "#CEF0FA",
     },
-    darkTheme: {
+    lightTheme: {
       primary: "#FAFAFA",
       secondary: "#2A2926",
       tertiary: "#252525",
@@ -58,25 +59,20 @@ module.exports = {
   socialMedia: [
     {
       name: "Linkedin",
-      url: "https://www.linkedin.com/in/konstantin-muenster/",
+      url: "https://www.linkedin.com/in/saad-eddine-hammi-3054b2136/",
     },
     {
-      name: "Medium",
-      url: "https://konstantinmuenster.medium.com/",
+      name: "Instagram",
+      url: "https://www.instagram.com/king.saad98/",
     },
     {
       name: "Github",
-      url:
-        "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
+      url: "https://github.com/kingsaad98",
     },
     {
-      name: "Behance",
-      url: "https://www.behance.net/konstanmnster",
+      name: "Mail",
+      url: "mailto:hammisaadeddine@gmail.com",
     },
-    // {
-    //   name: "Mail",
-    //   url: "mailto:mail@konstantin.digital",
-    // },
   ],
 
   //-- NAVIGATION SETTINGS -----
@@ -112,4 +108,4 @@ module.exports = {
       url: "/imprint",
     },
   ],
-}
+};

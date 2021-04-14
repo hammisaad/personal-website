@@ -12,7 +12,6 @@ import Footer from "./footer"
 import CookieBar from "../components/cookieBar"
 import { useCookieBar } from "../../config"
 
-// https://medium.com/@chrisfitkin/how-to-smooth-scroll-links-in-gatsby-3dc445299558
 if (typeof window !== "undefined") {
   require("smooth-scroll")('a[href*="#"]')
 }
@@ -37,7 +36,7 @@ const Layout = ({ children }) => {
         <GlobalStyle />
         <Header />
         <main id="main-content">{children}</main>
-        <Footer />
+     
         {useCookieBar && <CookieBar />}
       </ThemeProvider>
     </StyledLayoutWrapper>

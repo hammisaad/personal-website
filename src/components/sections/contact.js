@@ -13,10 +13,12 @@ import Social from "../social"
 const StyledSection = styled(motion.section)`
   width: 100%;
   height: auto;
-  background: ${({ theme }) => theme.colors.background};
+  background: ${({ theme }) => theme.colors.lightBlue};
   margin-top: 6rem;
   display: flex;
   justify-content: center;
+  padding-top : 2rem; 
+  padding-bottom : 2rem
 `
 
 const StyledContentWrapper = styled(ContentWrapper)`
@@ -81,10 +83,7 @@ const Contact = ({ content }) => {
         <h3>{frontmatter.title}</h3>
         <MDXRenderer>{body}</MDXRenderer>
         <div className="profile">
-          <Img
-            className="avatar"
-            fluid={frontmatter.profileImage.childImageSharp.fluid}
-          />
+        
           <div className="details">
             <strong>{frontmatter.name}</strong>
             <br />

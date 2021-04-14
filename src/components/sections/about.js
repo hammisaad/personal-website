@@ -13,7 +13,7 @@ const StyledSection = styled.section`
   width: 100%;
   height: auto;
   background: ${({ theme }) => theme.colors.background};
-  margin-top: 4rem;
+  margin-top: 4rem,
 `
 
 const StyledContentWrapper = styled(ContentWrapper)`
@@ -37,7 +37,6 @@ const StyledContentWrapper = styled(ContentWrapper)`
     }
     .text-content {
       width: 100%;
-      max-width: 31.25rem;
     }
     .image-content {
       width: 100%;
@@ -97,17 +96,6 @@ const About = ({ content }) => {
           <div className="text-content">
             <MDXRenderer>{body}</MDXRenderer>
           </div>
-        </motion.div>
-        <motion.div
-          className="image-content"
-          ref={iRef}
-          initial={{ opacity: 0, x: 20 }}
-          animate={iControls}
-        >
-          <Img
-            className="about-author"
-            fluid={frontmatter.image.childImageSharp.fluid}
-          />
         </motion.div>
       </StyledContentWrapper>
     </StyledSection>
