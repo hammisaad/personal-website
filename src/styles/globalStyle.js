@@ -55,8 +55,8 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h1 {
-        font-weight: 700;
-        font-size: 2rem;
+        font-weight: 800;
+        font-size: 2.5rem;
         line-height: 2.375rem;
         color: ${({ theme }) => theme.colors.primary};
         @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
@@ -66,8 +66,8 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h2 {
-        font-weight: 700;
-        font-size: 1.25rem;
+        font-weight: 800;
+        font-size: 1.50rem;
         line-height: 1.5rem;
         color: ${({ theme }) => theme.colors.primary};
         @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
@@ -77,17 +77,17 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h3 {
-        font-weight: 700;
-        font-size: 1.75rem;
+        font-weight: 800;
+        font-size: 2rem;
         line-height: 2.25rem;
         color: ${({ theme }) => theme.colors.primary};
         margin-bottom: 3rem;
     }
 
     h4 {
-        font-size: 1rem;
+        font-size: 1.25rem;
         line-height: 1.5rem;
-        font-weight: 400;
+        font-weight: 500;
     }
 
     hr {

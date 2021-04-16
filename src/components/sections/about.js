@@ -29,6 +29,7 @@ const StyledContentWrapper = styled(ContentWrapper)`
     }
     .section-title {
       margin-bottom: 2rem;
+      font-size : 2.5rem;
     }
     .inner-wrapper {
       display: flex;
@@ -37,6 +38,8 @@ const StyledContentWrapper = styled(ContentWrapper)`
     }
     .text-content {
       width: 100%;
+      font-size : 1.2rem; 
+      font-weight : 1.2rem;
     }
     .image-content {
       width: 100%;

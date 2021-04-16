@@ -18,9 +18,8 @@ module.exports = {
     node: true,
     es6: true,
   },
-  plugins: ["@babel", "react", "react-hooks", "prettier"],
+  plugins: ["@babel", "react", "react-hooks"],
   rules: {
-    "prettier/prettier": "error",
     "react/no-find-dom-node": "off",
   },
-}
+};

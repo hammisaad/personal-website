@@ -5,7 +5,7 @@ module.exports = {
   siteShortTitle: "SAAD", // Used as logo text in header, footer, and splash screen
   siteDescription:
     "I created this website to showercase my work and share my ideas.",
-  siteUrl: "",
+  siteUrl: "https://www.bitcoin.com/",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
   seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
@@ -26,6 +26,7 @@ module.exports = {
       boxShadow: "rgba(0, 0, 0, 0.16)",
       boxShadowHover: "rgba(0, 0, 0, 0.32)",
       lightBlue: "#CEF0FA",
+      white: "white",
     },
     lightTheme: {
       primary: "#FAFAFA",
@@ -41,7 +42,7 @@ module.exports = {
     },
   },
   fonts: {
-    primary: "Roboto, Arial, sans-serif",
+    primary: "Poppins, Roboto, Arial, sans-serif",
   },
 
   //-- ARTICLES SECTION SETTINGS -----

@@ -17,8 +17,10 @@ import { lightTheme, darkTheme } from "../../styles/theme"
 const StyledSection = styled.section`
   width: 100%;
   height: auto;
-  background: ${({ theme }) => theme.colors.background};
+  background: ${({ theme }) => theme.colors.white};
   margin-top: 6rem;
+  padding-top : 2rem; 
+  padding-bottom : 2rem;
   .cta-btn {
     display: block;
     text-align: center;
@@ -44,6 +46,7 @@ const StyledContentWrapper = styled(ContentWrapper)`
       padding-left: 2.5rem;
     }
     .section-title {
+      font-size : 2.5rem;
       padding-right: 2.5rem;
       padding-left: 2.5rem;
       @media (min-width: ${({ theme }) => theme.breakpoints.md}) {
@@ -139,6 +142,10 @@ const StyledProject = styled(motion.div)`
     @media (min-width: ${({ theme }) => theme.breakpoints.md}) {
       margin-top: 0;
     }
+    p {
+      font-size : 1.2rem; 
+      font-weight : 1.2rem;
+    }
     .category {
       font-size: 0.875rem;
       line-height: 1rem;
@@ -148,7 +155,7 @@ const StyledProject = styled(motion.div)`
     .title {
       margin-top: 0.625rem;
       margin-bottom: 0.625rem;
-      font-size: 1.375rem;
+      font-size: 1.575rem;
       line-height: 1.625rem;
       font-weight: 700;
     }

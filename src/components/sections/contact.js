@@ -14,7 +14,6 @@ const StyledSection = styled(motion.section)`
   width: 100%;
   height: auto;
   background: ${({ theme }) => theme.colors.lightBlue};
-  margin-top: 6rem;
   display: flex;
   justify-content: center;
   padding-top : 2rem; 
@@ -31,6 +30,9 @@ const StyledContentWrapper = styled(ContentWrapper)`
     p {
       margin-top: 0;
       margin-bottom: 0;
+    }
+    h3 {
+      font-size : 2.5rem;
     }
     .profile {
       display: flex;
