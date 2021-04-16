@@ -34,6 +34,11 @@ const StyledContentWrapper = styled(ContentWrapper)`
     h3 {
       font-size : 2.5rem;
     }
+    strong {
+      font-size : 1.2rem;
+      text-transform: capitalize
+    }
+   
     .profile {
       display: flex;
       flex-direction: column;
